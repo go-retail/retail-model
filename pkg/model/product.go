@@ -8,6 +8,6 @@ type Product struct {
 	Catagory      string    `json:"ProductCatagory"`
 	ProductUnit   string    `json:"ProductMeasurementUnit"`
 	PricePerUnit  float64   `json:"ProductDescription"`
-	PriceCurrency float64   `json:"USD"`
+	PriceCurrency string    `json:"Currency"`
 	UpdateDate    time.Time `json:"txnDate"`
 }
